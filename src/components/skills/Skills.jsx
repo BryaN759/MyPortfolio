@@ -14,7 +14,6 @@ const Skills = () => {
             <Frontend />
             <Backend /> 
             <ProblemSolving />
-            <Databases />
         </div>
     </section>
   );
