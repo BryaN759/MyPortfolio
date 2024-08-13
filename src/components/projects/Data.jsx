@@ -4,6 +4,7 @@ import TaskManager from "../../assets/taskmanagerproject.png";
 import JobPortal from "../../assets/Jobportal_home.png";
 import Insurance from "../../assets/insurance_home.png";
 import NotesApp from "../../assets/NotesApp.png";
+import BookingApp from "../../assets/booking_app.png";
 
 export const projectsData = [
   {
@@ -16,7 +17,7 @@ export const projectsData = [
   {
     id: 2,
     image: Shakkhat,
-    title: "Shakkhat: Django and Vue3 Social Media Website",
+    title: "Shakkhat: Django & Vue3 Social Media",
     category: "Django",
     link: "https://github.com/BryaN759/Django-and-Vue3-Social-Media-Website",
   },
@@ -43,6 +44,14 @@ export const projectsData = [
   },
   {
     id: 6,
+    image: BookingApp,
+    title: "MERN stack Booking App",
+    category: "MERN",
+    link: "https://github.com/BryaN759/MERN-Booking-website",
+    url: "https://booking-website-s97m.onrender.com/",
+  },
+  {
+    id: 7,
     image: Insurance,
     title: "Php Insurance Management System",
     category: "Php",
