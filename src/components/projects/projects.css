@@ -13,6 +13,7 @@
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
+  cursor: pointer;
 }
 
 .project__item:hover {
@@ -63,9 +64,6 @@
   transition: 0.4s;
   color: red;
   border-radius: 50%;
-}
-
-.project__demo:hover .project__demo-icon {
   animation: flicker 0.5s infinite alternate;
 }
 

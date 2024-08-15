@@ -40,7 +40,8 @@ export const projectsData = [
     image: NotesApp,
     title: "MERN stack Notes App",
     category: "MERN",
-    link: "https://github.com/BryaN759/Internship-and-Job-Board",
+    link: "https://github.com/BryaN759/MERN-Notes-App",
+    url: "https://mern-notes-web.onrender.com/",
   },
   {
     id: 6,
