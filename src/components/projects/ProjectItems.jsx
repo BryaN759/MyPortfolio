@@ -8,7 +8,12 @@ const ProjectItems = ({ item }) => {
       <img className="project__img" src={item.image} alt="" />
       <h3 className="project__title">{item.title}</h3>
       <div className="project__buttons">
-        <a href={item.link} className="project__button" target="_blank">
+        <a
+          href={item.link}
+          className="project__button"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Source Code <HiOutlineArrowSmRight className="project__button-icon" />
         </a>
         {item.url && (
