@@ -32,6 +32,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
 }
 
 .project__img {
@@ -63,8 +64,9 @@
   font-size: 1rem;
   transition: 0.4s;
   color: red;
+  background-color: #f0b8bc;
   border-radius: 50%;
-  animation: flicker 0.5s infinite alternate;
+  animation: flicker 1s infinite alternate;
 }
 
 @keyframes flicker {
@@ -145,4 +147,23 @@
   .project__filters {
     column-gap: 0.25rem;
   }
+}
+.warning-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f8d7da;
+  color: red;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.warning-icon {
+  margin-right: 10px;
+  font-size: 1rem;
 }

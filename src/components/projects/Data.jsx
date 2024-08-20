@@ -3,7 +3,7 @@ import Shakkhat from "../../assets/Shakkhat_profile.png";
 import TaskManager from "../../assets/taskmanagerproject.png";
 import JobPortal from "../../assets/Jobportal_home.png";
 import Insurance from "../../assets/insurance_home.png";
-import NotesApp from "../../assets/notes_app.png";
+import NotesApp from "../../assets/note_snap.png";
 import BookingApp from "../../assets/booking_app.png";
 
 export const projectsData = [
